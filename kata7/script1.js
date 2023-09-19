@@ -2,20 +2,19 @@
 //Your job is to return the middle character of the word. 
 //If the word's length is odd, return the middle character. 
 //If the word's length is even, return the middle 2 characters.
-
-
-function getMiddle(s)
-{
-  if(s.length % 2 == 0){
-    a = s.length/2
-    return s.charAt(a-1) + s.charAt(a)
+let num1 = String(prompt("Enter num1:"));
+bir=0
+ikki = 0
+for (const num of num1) {
+  if(num == "1"){
+    bir= bir+1
+  }else{
+    ikki=ikki+1
   }
-  else{
-    a = s.length/2
-    b = parseInt(a)
-    return s.charAt(b)
-
-  }
+  
 }
-
-console.log(getMiddle('testing'));
+if(bir>ikki){
+  console.log(ikki);
+}else{
+  console.log(bir);
+}

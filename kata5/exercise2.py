@@ -7,4 +7,4 @@ def pig_it(text):
         else:
             arr.append(i)
     return ' '.join(arr)
-pig_it('This is my string')
+print(pig_it('This is my string'))
